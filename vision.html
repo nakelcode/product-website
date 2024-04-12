@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>vision</title>
+       <meta name="author" content="olamilekan">
+       <link rel="stylesheet" href="vision.css"> 
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body id="home">
+     <div class="home">   
+      <header> 
+        <nav class="navbar">
+          <div class="container">
+            <a href="#" class="logo">Apple.</a>
+              <div class="menu-toggle" id="mobile-menu">
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+              </div>
+              <ul class="nav-list" id="nav-list">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#feature">Features</a></li>
+                  <li><a href="#price">Price</a> </li>
+                  <li><a href="#review">Reviews</a> </li>
+                  <li><a href="#contact">Contact</a></li> 
+              </ul>
+          </div>
+      </nav>
+     </header>
+
+    
+
+      <div class="home1">
+        <h3 class="home2">THE FUTURE IS <br> HERE</h3>
+        <div>
+            <a class="resume" href="https://www.youtube.com/watch?v=TX9qSaGXFyg">WATCH VIDEO</a>
+        </div>
+      </div>
+     </div> <br> <br> <br>
+
+      <div id="about" class="about">
+        <h3>MEET VISION PRO</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+          sed do eiusmod tempor incididunt ut labore et dolore magna<br>
+           aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br>
+           ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+      </div> <br>
+
+      <div id="feature" class="feature">
+        <h4>Achieve more,<br> everyday.</h4>
+          <h5>Smart responsive</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+             sed do eiusmod tempor incididunt ut labore et dolore magna <br>
+             aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br>
+             ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+
+          <h5>Multipurpose </h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+             sed do eiusmod tempor incididunt ut labore et dolore magna<br>
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br>
+              ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+           
+          <h5>Clean design</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+            sed do eiusmod tempor incididunt ut labore et dolore magna<br>
+             aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br>
+             ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            
+          <h5>Easy to use</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+            sed do eiusmod tempor incididunt ut labore et dolore magna<br>
+             aliq ua. Ut enim ad minim veniam, quis nostrud exercitation <br>
+             ullamco laboris nisi ut aliquip ex ea commodo consequat</p>             
+      </div> <br> <br> <br> <br>
+
+      <div id="price" class="price">
+          <h3>$3,000</h3> <hr>
+          <p style="color:white;">Clean Design</p>
+          <p style="color:white;">Easy To Use</p> <br>
+         <div class="center">
+          <a class="buy" href="#">BUY</a>
+         </div> 
+      </div>
+
+      <div id="review" class="review">
+        <h4>Buyers about product</h4>
+        <p style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+          sed do eiusmod tempor incididunt ut labore et dolore magna<br>
+           aliq ua. Ut enim ad minim veniam, quis nostrud exercitation <br>
+           ullamco laboris nisi ut aliquip ex ea commodo consequat</p> <br> <br>
+      <div class="review1"> 
+       <div class="img1">
+        <img class="avatar" src="https://www.w3schools.com/howto/img_avatar2.png">
+        <h5>Olamilekan Owolemi</h5>   
+        <p>This is not the official website <br>
+           of apple vision pro <br>
+           but a practical website created <br>
+            by nakel.code</p>
+       </div>
+
+       <div class="img2">
+        <img class="avatar" src="https://www.w3schools.com/howto/img_avatar2.png">
+        <h5>Olamilekan Owolemi</h5>
+        <p>This is not the official website <br>
+           of apple vision pro <br>
+           but a practical website created <br>
+            by nakel.code</p>
+       </div> 
+      </div>
+     </div>  
+
+     <div class="sub">
+      <h4>Subscribe</h4>
+      <p>Lorem ipsum dolor sit amet, <br>
+      consectetur</p>
+
+      <form>
+        <label for="email">Email Address</label> <br>
+        <input type="email" name="Email Address" required>
+        <input type="submit" value="SUBSCRIBE" onclick="alert('You have subscribed')" required>
+      </form>
+     </div> <br> <br> <hr> <br>
+        
+     <footer>
+      <div id="contact" class="social"> 
+        <a href="https://www.instagram.com/nakel_code?igsh=d2FxdTFidXlpa2xw&utm_souce=qr" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-whatsapp"></a>
+       </div> 
+  
+     <p> &copy Olamilekan. All rights reserved by <a href="https://www.instagram.com/nakel_code?igsh=d2FxdTFidXlpa2xw&utm_souce=qr">Nakel.code</a> </p>
+     </footer>
+    </body>
+
+      <script>
+      const menuToggle = document.getElementById('mobile-menu');
+      const navList = document.getElementById('nav-list');
+      
+      menuToggle.addEventListener('click', () => {
+          navList.classList.toggle('active');
+      });
+      </script>
+    
+</html>
